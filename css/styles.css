@@ -1,0 +1,93 @@
+:root {
+--primary: black;
+--secundary: #FFD540;
+}
+body {
+
+    margin: 0;
+    background-color: var(--primary);
+    font-family: Roboto;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+  
+
+}
+.circulo {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    width: 20px;
+    height: 20px;
+   background-color: var(--secundary);
+   border-radius: 50%;
+}
+#vibe {
+    font-weight: 700;
+    position: relative;
+    left: 50px;
+    top: 30px;
+    color: white;
+}
+
+.titulo {
+    width: 50vh;
+    font-size: 3rem;
+    position: relative;
+    top: 4vh;
+    left: 6vh;
+    color: white;
+}
+.subtitulo {
+    width: 50vh;
+    color:white;
+    position: absolute;
+    bottom: 20vh;
+   left: 6vh;
+
+}
+
+.titulo2, .vibra {
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
+    position: absolute;
+   left: 6vh;
+   
+  }
+  .titulo2 {
+      top:22.5vh;
+  }
+ .vibra {
+   
+   color:var(--secundary);
+ }
+ h4 {
+     font-weight: 100;
+     font-size:1.5rem;
+    }
+
+    footer img{
+        width: 100%;
+        height: 40%;
+        position: absolute;
+        bottom: 0%;
+        z-index: -1;
+    }
+ 
+    .registrarse-boton {
+        position:absolute;
+        bottom: 30%;
+        left: 6vh;
+        width: 10rem;
+        height: 2.5rem;
+        border-radius: 10px 10px 10px 10px;
+        background-color: var(--secundary);
+        border-style: none;
+        font-size: 1rem;
+        font-weight: 300;
+        font-family: Roboto;
+    }
