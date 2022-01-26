@@ -19,7 +19,7 @@ header{
 .circulo {
     position: relative;
     top: 30px;
-    left: 40px;
+    left: 45px;
     width: 20px;
     height: 20px;
    background-color: var(--secundary);
@@ -28,17 +28,17 @@ header{
 #vibe {
     font-weight: 700;
     position: relative;
-    left: 50px;
+    left: 60px;
     top: 30px;
     color: white;
 }
 
 .titulo {
     width: 50vh;
-    font-size: 3rem;
+    font-size: 2.5rem;
     position: relative;
     top: 4vh;
-    left: 6vh;
+    left: 7vh;
     color: white;
 }
 .subtitulo {
@@ -46,26 +46,29 @@ header{
     color:white;
     position: absolute;
     bottom: 20vh;
-   left: 6vh;
+   left: 7vh;
 
 }
 
 .titulo2, .vibra {
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 300;
     position: absolute;
-   left: 6vh;
+   left: 7vh;
    
   }
   .titulo2 {
-      top:22.5vh;
+      top:20vh;
   }
  .vibra {
-   
+   position: absolute;
+   top: 26vh;
    color:var(--secundary);
  }
  h4 {
+     position: absolute;
+     top: 40%;
      font-weight: 100;
      font-size:1.5rem;
     }
@@ -80,14 +83,26 @@ header{
  
     .registrarse-boton {
         position:absolute;
-        bottom: 30%;
-        left: 6vh;
+        bottom: 24%;
+        left: 7vh;
         width: 10rem;
         height: 2.5rem;
-        border-radius: 10px 10px 10px 10px;
+        border-radius: 15px 15px 15px 15px;
         background-color: var(--secundary);
         border-style: none;
         font-size: 1rem;
         font-weight: 300;
         font-family: Roboto;
     }
+    .terminos {
+        font-family: Roboto;
+        display: flex;
+        position: absolute;
+    font-weight: 300;
+        list-style: none;
+        left: 2vh;
+        bottom: 4.5%;
+        color: rgba(255, 255, 255, 0.87);
+        backdrop-filter: blur(5rem);
+    }
+   
