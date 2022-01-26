@@ -1,108 +1,108 @@
 :root {
---primary: black;
---secundary: #FFD540;
-}
-body {
-
-    margin: 0;
-    background-color: var(--primary);
-    font-family: Roboto;
-
-}
-
-header{
-    display: flex;
-    flex-direction: row;
-  
-
-}
-.circulo {
-    position: relative;
-    top: 30px;
-    left: 45px;
-    width: 20px;
-    height: 20px;
-   background-color: var(--secundary);
-   border-radius: 50%;
-}
-#vibe {
-    font-weight: 700;
-    position: relative;
-    left: 60px;
-    top: 30px;
-    color: white;
-}
-
-.titulo {
-    width: 50vh;
-    font-size: 2.5rem;
-    position: relative;
-    top: 4vh;
-    left: 7vh;
-    color: white;
-}
-.subtitulo {
-    width: 50vh;
-    color:white;
-    position: absolute;
-    bottom: 20vh;
-   left: 7vh;
-
-}
-
-.titulo2, .vibra {
-    color: white;
-    font-size: 2.5rem;
-    font-weight: 300;
-    position: absolute;
-   left: 7vh;
-   
-  }
-  .titulo2 {
-      top:20vh;
-  }
- .vibra {
-   position: absolute;
-   top: 26vh;
-   color:var(--secundary);
- }
- h4 {
-     position: absolute;
-     top: 40%;
-     font-weight: 100;
-     font-size:1.5rem;
+    --primary: black;
+    --secundary: #FFD540;
     }
-
-    footer img{
-        width: 100%;
-        height: 40%;
-        position: absolute;
-        bottom: 0%;
-        z-index: -1;
-    }
- 
-    .registrarse-boton {
-        position:absolute;
-        bottom: 24%;
-        left: 7vh;
-        width: 10rem;
-        height: 2.5rem;
-        border-radius: 15px 15px 15px 15px;
-        background-color: var(--secundary);
-        border-style: none;
-        font-size: 1rem;
-        font-weight: 300;
+    body {
+    
+        margin: 0;
+        background-color: var(--primary);
         font-family: Roboto;
+        overflow: hidden;
+    
     }
-    .terminos {
-        font-family: Roboto;
+    
+    header{
         display: flex;
-        position: absolute;
-    font-weight: 300;
-        list-style: none;
-        left: 2vh;
-        bottom: 4.5%;
-        color: rgba(255, 255, 255, 0.87);
-        backdrop-filter: blur(5rem);
+        flex-direction: row;
+      
+    
     }
-   
+    .circulo {
+        position: absolute;
+        top: 1.5em;
+        left: 2em;
+        width: 1.5em;
+        height: 1.5em;
+       background-color: var(--secundary);
+       border-radius: 50%;
+    }
+    #vibe {
+        font-weight: 700;
+        position: absolute;
+        left: 4.5em;
+        top: 1.6em;
+        color: white;
+    }
+    
+    .titulo {
+        width: 10em;
+        font-size: 2.5em;
+        position: absolute;
+        top: 2em;
+        left: 0.9em;
+        color: white;
+    }
+    .subtitulo {
+        width: 15em;
+        color:white;
+        position: absolute;
+       top: 10em;
+       left: 1.7em;
+    
+    }
+    
+    .titulo2, .vibra {
+        color: white;
+        font-size: 2.5em;
+        font-weight: 300;
+        position: absolute;
+       left: 0.9em;
+       
+      }
+      .titulo2 {
+          top:3em;
+      }
+     .vibra {
+       position: absolute;
+       top: 4em;
+       color:var(--secundary);
+     }
+     h4 {
+         position: absolute;
+         top: 40em;
+         font-weight: 100;
+         font-size:1.5em;
+        }
+    
+        footer img{
+            width: 100%;
+            height: 40%;
+            position: absolute;
+            bottom: 0%;
+            z-index: -1;
+        }
+     
+        .registrarse-boton {
+            position:absolute;
+            bottom: 24%;
+            left: 2.5em;
+            width: 10rem;
+            height: 2.5rem;
+            border-radius: 15px 15px 15px 15px;
+            background-color: var(--secundary);
+            border-style: none;
+            font-size: 1rem;
+            font-weight: 300;
+            font-family: Roboto;
+        }
+        .terminos {
+            font-family: Roboto;
+            display: flex;
+            position: absolute;
+        font-weight: 300;
+            list-style: none;
+            left: 2vh;
+            bottom: 4.5%;
+            color: rgba(255, 255, 255, 0.87);
+            backdrop-filter: blur(5rem);
+        }
