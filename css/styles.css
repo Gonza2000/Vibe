@@ -109,4 +109,70 @@ footer li {
     font-weight: bold;
    justify-content: center;
 }
+.titulo {
+  margin-top: 3.5em;
+}  
+}
+
+@media screen and (min-height: 1180px) {
+
+    .titulo {
+        margin-left: 4em;
+    }
+    .titulo-1,.titulo-2,.titulo-3{
+        font-size: 4rem;
+    }
+    .titulo-1,.titulo-2,.subtitulo{
+        color:white;
+    }
+    .titulo-3{
+        color: var(--secundary);
+        margin-top: 0;
+    }
+    
+    .titulo-1{
+        margin-bottom: 0;
+    }
+    .titulo-2{
+        font-weight: 300;
+        margin: 0;
+    }
+    .titulo-3{
+        font-weight: 300;
+    }
+    .subtitulo{
+        width: 80%;
+        font-size: 2.5rem;
+        font-weight: 100;
+    }
+    
+    .registrarse-boton{
+      width: 10em;
+      height: 3em;
+      background-color: var(--secundary);
+      border-style: none;
+      font-size: 1rem;
+      font-family: roboto;
+      font-weight:lighter;
+      border-radius: 15px;
+      margin-top: 15%;
+      margin-left: 4em;
+}
+.terminos {
+    display: flex;
+    position: fixed;
+    left: 30%;
+    list-style: none;
+    color:white;
+    font-weight: bold;
+   justify-content: center;
+
+}
+footer li {
+    margin: 7em 2em 0 0;
+
+
+  
+
+}
 }
