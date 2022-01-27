@@ -63,6 +63,7 @@
   font-family: roboto;
   font-weight:lighter;
   border-radius: 15px;
+  margin-top: 2em;
   margin-left: 2em;
 
 }
@@ -84,4 +85,28 @@ footer li {
     margin: 7em 2em 0 0;
     filter: opacity(0.5);
 
+}
+@media screen and (min-width: 800px) {
+    .registrarse-boton{
+        width: 8em;
+        height: 2.5em;
+        background-color: var(--secundary);
+        border-style: none;
+        font-size: 1.30rem;
+        font-family: roboto;
+        font-weight:lighter;
+        border-radius: 15px;
+        margin-left: 1.5em;
+        margin-top: 2em;
+  }
+  .terminos {
+    display: flex;
+    position: fixed;
+    bottom: 1%;
+    left:40%;
+    list-style: none;
+    color:white;
+    font-weight: bold;
+   justify-content: center;
+}
 }
