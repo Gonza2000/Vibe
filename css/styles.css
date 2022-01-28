@@ -34,12 +34,13 @@
 .titulo-1,.titulo-2,.subtitulo{
     color:white;
 }
+
 .titulo-3{
     margin-top: 0.75rem;
     -webkit-text-stroke:  0.3vw var(--secundary);
     line-height: 0.70em;
     outline: none;
-    animation: glow 2.5s  ease  infinite alternate;
+    animation: glow 1s  ease  infinite alternate;
 }
 @keyframes glow {
     from {
@@ -68,7 +69,7 @@ text-shadow:0 0 2px var(--secundary) ;
 }
 
 .registrarse-boton{
-  width: 8em;
+  width: 10em;
   height: 2.5em;
   background-color: var(--secundary);
   border-style: none;
@@ -125,6 +126,9 @@ footer li {
 .titulo {
   margin-top: 3.5em;
 }  
+.titulo-3{
+    -webkit-text-stroke:  0.1vw var(--secundary);
+}
 }
 
 @media screen and (min-height: 1180px) {
