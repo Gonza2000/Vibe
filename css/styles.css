@@ -37,7 +37,6 @@
 .titulo-3{
     margin-top: 0.75rem;
     -webkit-text-stroke:  0.3vw var(--secundary);
-    -webkit-box-reflect:below 1px linear-gradient(transparent,black);
     line-height: 0.70em;
     outline: none;
     animation: glow 2.5s  ease  infinite alternate;
