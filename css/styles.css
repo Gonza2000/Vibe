@@ -81,9 +81,7 @@ text-shadow:0 0 2px var(--secundary) ;
   margin-left: 2em;
   cursor: pointer;
 }
-a {
-    cursor: pointer;
-}
+
 footer img {
     position: fixed;
     bottom: 0;
