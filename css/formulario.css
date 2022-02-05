@@ -1,0 +1,97 @@
+:root {
+    --primary: black;
+    --secundary: #FFD540;
+   }
+   body {
+       background-color: #000;
+
+   }
+     header {
+        display: flex;
+    }
+    .circulo{
+     width: 1.5em;
+     height: 1.5em;
+     border-radius: 50%;
+     background-color: var(--secundary);
+     margin: 2em 0 0 3em;
+     
+    }
+    #vibe {
+        font-size: 1.375rem;
+        font-family: Roboto;
+        color: white;
+        font-weight: 700;
+        margin: 1.4em 0 0 1em ;
+    }
+   
+.formulario {
+    width: 80%;
+    border-radius: 10px 10px 10px 10px;
+    font-family: Roboto;
+    background-color: var(--secundary);
+    margin: 10%;
+}
+
+.formulario__input {
+    width: 80%;
+    height: 1.5em;
+  border: 3px solid transparent;
+  border-radius: 3px;
+    margin-top: 2%;
+    transition: .3s ease all;
+}
+.formulario__input:focus{
+    border: 3px solid #769bff;
+    outline: none;
+    box-shadow:3px 0px 10px rgba(130, 188, 255, 0.795) ;
+}
+.formulario__grupo{
+    margin-left:10%;
+    margin-bottom:5%;
+}
+h1 {
+    font-size: 1.7rem;
+ padding-top: 7%;
+ padding-left: 10%;
+}
+.formulario__grupo-input{
+    position: relative;
+}
+
+.formulario__btn {
+    background-color: var(--primary);
+    color: #fff;
+    font-weight: 700;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    padding: 0.5em 1em 0.5em 1em;
+    width: 50%;
+    margin-bottom: 1em;
+
+    
+}
+.formulario__grupo-btn-registrarse {
+    margin-left: 30%;
+}
+.formulario__input-error {
+    font-size: 0.8rem;
+    margin-top: 0.5em;
+    display: none;
+ 
+}
+.formulario__input-error-activo{
+    display: block;
+}
+
+.form__validacion-estado{
+position: absolute;
+left: 16em;
+top:0.9em;
+opacity: 0;
+}
+.formulario__mensaje{
+    margin-left: 12%;
+    display: none;
+}
+

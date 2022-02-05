@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <title>¡Crea tu Cuenta Vibe!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="circulo"></div>
+        <div id="vibe">Vibe</div>
+    </header>
+    <form action="" class="formulario" id="formulario">
+
+        <h1>Crea tu cuenta de Vibe</h1>
+
+
+        <div class="formulario__grupo" id="grupo__nombre">
+            <label for="Nombre" class="formulario__label">Nombre Completo </label>
+            <div class="formulario__grupo-input">
+                <input type="text" id="Nombre" class="formulario__input" name="Nombre">
+                <i class="form__validacion-estado far fa-times-circle"></i>
+                <p class="formulario__input-error">El nombre completo debe incluir nombre y apellido </p>
+            </div>
+        </div>
+
+        <div class="formulario__grupo" id="grupo__correo">
+            <label for="correo" class="formulario__label">Correo Electrónico </label>
+            <div class="formulario__grupo-input">
+                <input type="email" id="correo" class="formulario__input" name="correo">
+                <i class="form__validacion-estado far fa-times-circle"></i>
+                <p class="formulario__input-error">El correo no es válido </p>
+            </div>
+        </div>
+
+
+        <div class="formulario__grupo" id="grupo__cedula">
+            <label for="Cedula" class="formulario__label">Cédula/C.I </label>
+            <div class="formulario__grupo-input">
+                <input type="text" id="Cedula" class="formulario__input" name="Cedula" placeholder="1727XXXXXX">
+                <i class="form__validacion-estado far fa-times-circle"></i>
+                <p class="formulario__input-error"> Ingrese una identificación válida</p>
+            </div>
+        </div>
+
+        <div class="formulario__grupo" id="grupo__edad">
+            <label for="edad" class="formulario__label">Edad</label>
+            <div class="formulario__grupo-input">
+                <input type="number" id="edad" class="formulario__input formulario__input-edad" name="edad"
+                    placeholder="18" min="18" max="100">
+                <i class="form__validacion-estado far fa-times-circle"></i>
+                <p class="formulario__input-error">Campo requerido </p>
+            </div>
+        </div>
+
+        <div class="formulario__grupo" id="grupo__celular">
+            <label for="celular" class="formulario__label">Número Celular</label>
+            <div class="formulario__grupo-input">
+                <input type="email" id="celular" class="formulario__input" name="celular" placeholder="123-456-789">
+                <i class="form__validacion-estado far fa-times-circle"></i>
+                <p class="formulario__input-error">Ingrese un número válido</p>
+            </div>
+        </div>
+
+        <div class="formulario__grupo" id="grupo__contraseña">
+            <label for="contraseña" class="formulario__label">Contraseña </label>
+            <div class="formulario__grupo-input">
+                <input type="password" id="contraseña" class="formulario__input" name="contraseña">
+                <i class="form__validacion-estado far fa-times-circle"></i>
+                <p class="formulario__input-error">El contraseña tiene que ser de 4 a 12 digitos </p>
+            </div>
+        </div>
+
+
+        <div class="formulario__grupo" id="grupo__terminos">
+            <label class="formulario__label">
+                <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+                Acepto los Terminos y Condiciones
+            </label>
+        </div>
+
+        <div class="formulario__mensaje" id="formulario__mensaje">
+            <p><i class="fas fa-exclamation-triangle"></i><b>Error:</b>Los campos son necesarios </p>
+        </div>
+
+        <div class="formulario__grupo  formulario__grupo-btn-registrarse">
+            <button type="submit" class="formulario__btn">Crear Cuenta</button>
+        </div>
+    </form>
+
+
+</body>
+<script src="js/formulario.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
+
+</html>
