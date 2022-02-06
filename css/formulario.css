@@ -53,7 +53,8 @@
 h1 {
     font-size: 1.7rem;
  padding-top: 7%;
- padding-left: 10%;
+align-items: center;
+margin-left: 5%;
 }
 .formulario__grupo-input{
     position: relative;
