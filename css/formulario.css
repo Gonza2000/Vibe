@@ -41,6 +41,9 @@
     margin-top: 2%;
     transition: .3s ease all;
 }
+.formulario__input-edad {
+    width: 10%;
+}
 .formulario__input:focus{
     border: 3px solid #769bff;
     outline: none;
@@ -50,11 +53,11 @@
     margin-left:10%;
     margin-bottom:5%;
 }
+
 h1 {
     font-size: 1.7rem;
  padding-top: 7%;
-align-items: center;
-margin-left: 5%;
+ margin-left: 5%;
 }
 .formulario__grupo-input{
     position: relative;
