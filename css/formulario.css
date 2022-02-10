@@ -79,7 +79,7 @@ h1 {
     margin-left: 18%;
 }
 
-.formulario__input-error {
+.formulario__input-error, .formulario__input-error-cantidad, .formulario__input-error-region {
     font-size: 0.8rem;
     margin-top: 0.5em;
     display: none;

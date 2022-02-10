@@ -25,7 +25,7 @@
             <div class="formulario__grupo-input">
                 <input type="text" id="Nombre" class="formulario__input" name="Nombre">
                 <i class="form__validacion-estado far fa-times-circle"></i>
-                <p class="formulario__input-error">Solo se debe incluir Nombre y Apellido,letras y espacios,
+                <p class="formulario__input-error">Sólo debe incluir nombre y apellido, letras y espacios,
                     pueden llevar acentos. </p>
             </div>
         </div>
@@ -46,6 +46,9 @@
                 <input type="text" id="Cedula" class="formulario__input" name="Cedula" placeholder="1727XXXXXX">
                 <i class="form__validacion-estado far fa-times-circle"></i>
                 <p class="formulario__input-error"> Ingrese una identificación válida</p>
+                <p class="formulario__input-error-cantidad">Esta identificación tiene más o menos de 10 digitos</p>
+                <p class="formulario__input-error-region">Esta identificación no pertenece a ninguna región</p>
+
             </div>
         </div>
 
@@ -73,7 +76,7 @@
             <div class="formulario__grupo-input">
                 <input type="password" id="contraseña" class="formulario__input" name="contraseña">
                 <i class="form__validacion-estado far fa-times-circle"></i>
-                <p class="formulario__input-error">El contraseña tiene que ser de 4 a 12 digitos </p>
+                <p class="formulario__input-error">El contraseña debe tener de 4 a 20 digitos </p>
             </div>
         </div>
 
