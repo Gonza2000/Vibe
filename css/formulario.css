@@ -117,3 +117,28 @@ opacity: 1;
     border:3px solid #fa0000;
     box-shadow:3px 0px 10px rgba(245, 134, 100, 0.795) ; 
 }
+
+@media screen and (min-width:390px){
+    .form__validacion-estado{
+        position: absolute;
+        left: 13.5em;
+        top:0.9em;
+        opacity: 0;
+}
+}
+@media screen and (min-width:410px){
+    .form__validacion-estado{
+        position: absolute;
+        left: 14.5em;
+        top:0.9em;
+        opacity: 0;
+}
+}
+@media screen and (min-width:768px){
+    .form__validacion-estado{
+        position: absolute;
+        left: 26.5em;
+        top:1.2em;
+        opacity: 0;
+}
+}
