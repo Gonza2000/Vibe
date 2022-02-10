@@ -49,9 +49,9 @@
     width: 10%;
 }
 .formulario__input:focus{
-    border: 3px solid #769bff;
+    border: 3px solid #5fe23e;
     outline: none;
-    box-shadow:3px 0px 10px rgba(130, 188, 255, 0.795) ;
+    box-shadow:3px 0px 10px rgba(81, 255, 0, 0.795) ;
 }
 .formulario__grupo{
     margin-left:10%;
