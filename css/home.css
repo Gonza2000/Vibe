@@ -1,0 +1,50 @@
+
+:root {
+    --primary: black;
+    --secundary: #FFD540;
+  font-family: Roboto;
+     }
+     body {
+         background-color: #303030;
+     }
+header{
+    width: 100vh;
+}
+     .contenedor {
+         width: 100vh;
+         height: 6.5em;
+         background-color: var(--secundary);
+         border-bottom-left-radius: 17px;
+     }
+     h1,h3{
+         margin: 0;
+         font-weight: 300;
+     }
+     h1 {
+         padding-top: 0.8em;
+         padding-left: 1em;
+         font-size: 1.7rem;
+     }
+     h3 {
+        padding-top: 0.6em;
+         padding-left: 1.7em;
+         font-size: 1rem;
+     }
+ .icono-usuario {
+     width: 3.5em;
+     height: 3.5em;
+     background-color: #a8a4a4;
+     border-radius: 50%;
+     margin-left: 17em;
+     margin-top: -3.5em;
+ }
+ svg{
+     width: 0.8em;
+ }
+ .icono-usuario svg{
+     margin-left: 3em;
+     margin-top: 2.5em;
+     background-color:  #436BF8;
+     border-radius: 50%;
+     border-color: red;
+ }
